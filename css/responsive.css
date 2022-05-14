@@ -2,7 +2,10 @@
 
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
-
+.goMaps{
+    width: 700px;
+    height: 400px;
+}
 @media (min-width: 1200px) and (max-width: 1342px) {
     .text-bg {
         padding-left: 37px;
@@ -176,6 +179,10 @@
 }
 
 @media (max-width: 575px) {
+       .goMaps{
+        width: 350px;
+        height: 250px;
+    }
     .header {
         padding: 30px 0px 15px 0px;
     }
