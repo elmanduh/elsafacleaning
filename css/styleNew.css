@@ -1,3 +1,8 @@
+.navbar.navbar-dark.bg-dark.shadow-sm{
+	position: fixed;
+    width: 100%;
+    z-index: 11;
+}
 .bd-placeholder-img{
     opacity: 0.7;
     height: 500px;
@@ -17,4 +22,49 @@
    direction: rtl;
    text-align: right;
     z-index: 5;  
+}
+i.fa-car
+ {
+	color: #fc5185 !important;
+}
+i.fa-car,
+i.fa-phone {
+	font-size: 25px;
+}
+.spPhone {
+	color: #fff !important;
+}
+ .fa-phone {
+	color: #fc5185 !important;
+	left: 0;	
+	-webkit-animation-name: movebounce;
+	animation-name: movebounce;
+	-webkit-animation-delay: 100ms;
+	animation-delay: 100ms;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+}
+@keyframes movebounce {
+	0%{
+		-webkit-transform:translateY(0);
+		transform:translateY(0);
+	}	
+	
+	75% {
+		-webkit-transform: translateY(.5rem);
+		transform: translateY(.5rem);
+	}
+	100% {
+		-webkit-transform: translateX(.5rem);
+		transform: translateX(.5rem);
+	}
+}
+a{
+	text-decoration:none;
 }
